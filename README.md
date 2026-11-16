@@ -1,6 +1,16 @@
-# Loupeline
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/loupeline-logo-white-transparent.png">
+    <img src="assets/logo/loupeline-logo-light-transparent.png" alt="Loupeline" width="380">
+  </picture>
+</p>
 
-**Client review and approval for creative agencies.**
+<p align="center"><b>Client review and approval for creative agencies.</b></p>
+
+<p align="center">
+  <img src="assets/mockups/04-review-screen.png" alt="Concept mockup of the Loupeline review screen" width="100%">
+  <br><sub><i>Early concept mockup of the review screen. The final interface will differ.</i></sub>
+</p>
 
 Each agency gets a review portal under its own name, logo and colours. Its clients pin comments on a design, compare versions and approve, and every final approval produces a certificate anyone can verify. One platform serves every agency, and every agency is fully isolated from the others.
 
@@ -34,6 +44,36 @@ Every creative agency runs the same loop every day: *design → send to the clie
 | **Pinned comments** | Comments attached to an exact point on a page of a specific version, with replies and internal team-only comments | Next |
 | **Approval certificate** | The final approval produces a PDF certificate (who approved which version, and when) with a public verification page | Planned |
 | **Reminders and push** | Automatic reminders for late reviewers, then a heads-up to the project manager; phone notifications | Planned |
+
+## Early concept
+
+These mockups were made while planning the product, to show the experience it is aiming for. They are a first visual direction, not the final design: the front end will be built after the backend, and layouts, wording and colours will change along the way. The agencies, clients and people in them are fictional.
+
+**Agency workspace.** What a team member sees first: files waiting on clients, requested changes, approvals this week and the latest activity.
+
+<img src="assets/mockups/03-agency-workspace.png" alt="Concept mockup: agency workspace dashboard" width="100%">
+
+**Review screen** (shown at the top). Pinned comments on version 3, the version switcher and comparison, the approval stages, and an internal comment the client never sees.
+
+**Client portal.** The client reviews under the agency's own brand, with no account and no password: a personal link and a code sent to their email.
+
+<img src="assets/mockups/05-client-portal.png" alt="Concept mockup: client review portal under an agency's brand" width="100%">
+
+**Branding and plan settings.** The agency sets its portal address, logo, colours and email sender name, with a live preview and its plan usage beside it.
+
+<img src="assets/mockups/06-branding-and-plan-settings.png" alt="Concept mockup: workspace branding and plan settings" width="100%">
+
+**Approval certificate.** Produced when a file is approved as final: who approved which version and when, the file fingerprint, and a code anyone can check on the verification page.
+
+<img src="assets/mockups/07-approval-certificate.png" alt="Concept mockup: approval certificate PDF" width="100%">
+
+<details>
+<summary><b>Product landing page (concept)</b></summary>
+<br>
+<img src="assets/mockups/01-landing-page-top.png" alt="Concept mockup: landing page, hero and branded portals" width="100%">
+<img src="assets/mockups/02-landing-page-features-pricing.png" alt="Concept mockup: landing page, features, steps and pricing" width="100%">
+<p><sub><i>Prices on this page are placeholders from the concept stage.</i></sub></p>
+</details>
 
 ## Architecture at a glance
 
